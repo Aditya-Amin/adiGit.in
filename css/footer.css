@@ -1,0 +1,160 @@
+footer{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    color: #8d8c8c;
+}
+
+.contact-us{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+#footer-top{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#footer-top h2,p{
+    margin: 10px;
+}
+#footer-middle{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(100px,auto);
+}
+#footer-middle i{
+    font-size: 90px;
+    margin: 10px;
+}
+#footer-middle div:hover{
+    color: #87d37c;
+}
+#footer-forms{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#footer-forms form{
+    flex-basis: 450px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(40px,auto);
+}
+#footer-forms .text-area{
+    flex-basis: 570px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(40px,auto);
+    grid-gap: 5px;
+    flex-shrink: 2;
+    margin: 5px;
+}
+input{
+    height: 40px;
+    padding: 20px;
+    border: 0;
+    box-shadow: -1px -1px #8d8c8c;
+    margin: 5px;
+}
+textarea{
+    padding: 20px;
+    height: 78px;
+    border:0;
+    box-shadow: 0 -1px #8d8c8c;
+    color: #8d8c8c;
+}
+#submit-btn{
+    color:#fff;
+    background:#8d8c8c;
+    border: 0;
+   border-radius: 4px;
+   height: 30px;
+}
+#submit-btn:hover{
+    background: #87d37c;
+    cursor: pointer;
+}
+.footer-bottom{
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+}
+#social-media{
+    width: 100%;
+    height: 50px;
+    background: #000;
+}
+#copyright{
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+#social-media .social{
+    font-size: 20px;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .social:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+@media screen and (max-width:480px){
+    #footer-forms{
+        display: flex;
+        justify-content:center;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+
+    #footer-middle{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-auto-rows: minmax(50px,auto);
+    }
+    #footer-middle i{
+        font-size: 40px;
+        margin: 10px;
+    }
+    #footer-middle h2{
+        display: none;
+    }
+}
